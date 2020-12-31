@@ -26,12 +26,7 @@
          ********************/
 
         // Carbon storage of trees in Warren Wilson College.
-        var featureLayer = new FeatureLayer({     url:"https://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/Landscape_Trees/FeatureServer/0"});
+        var featureLayer = new FeatureLayer({url:"https://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/Landscape_Trees/FeatureServer/0"});
    
-   /*
-   var featureLayer = new FeatureLayer({
-     url:"https://services2.arcgis.com/zNjnZafDYCAJAbN0/arcgis/rest/services/Traffic_Collisions/FeatureServer"
-   })*/
-
         map.add(featureLayer);
       });
